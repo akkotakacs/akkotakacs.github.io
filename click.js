@@ -9,6 +9,15 @@ $('#second').click(() => {
     $('#first').text('Other text than click me....')
 });
   
+// $('#third').click(() => {
+//     $('button').css('background', 'yellow')
+// });
+
 $('#third').click(() => {
-    $('button').css('background', 'yellow')
+  let szin = $("#myInput").val();
+  $('button').css('background', szin)
 });
+
+// only the first input is read..
+// let szin = $("#myInput").val();
+        // alert(szin);
